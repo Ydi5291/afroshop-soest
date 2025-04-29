@@ -15,7 +15,7 @@ body {
 
 /* Header */
 .header {
-   background-color: rgba(0,0,0,0.7);
+   background-color:#606269 ;
     padding: 20px 0;
 }
 
@@ -68,7 +68,6 @@ body {
         left: -100%;
     }
 }
-
 
 .hero p {
     font-size: 20px;
@@ -149,12 +148,25 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #e67e22;
+    background-color: #54402e;
     color: white;
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer a.footer-link {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a.footer-link:hover {
+    color: #ffcc00;
 }
 
 
@@ -261,4 +273,32 @@ body {
 /* Fix für Swiper pagination */
 .swiper-pagination {
     margin-top: 20px;
+}
+
+/* Impressum */
+/* Impressum Styles */
+main.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 2rem;
+    background-color: #d0c5c5;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+}
+
+main.container h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+main.container p {
+    margin-bottom: 1rem;
+}
+
+main.container strong {
+    color: #000;
 }
